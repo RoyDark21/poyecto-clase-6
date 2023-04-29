@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/registrate.css">
+    <link rel="icon" href="../image/favicon.icon.jpg" type="image/x-icon">
+    <title>Cafeteria RoyDark</title>
+</head>
+<body>
+  <header>
+    <img src="../image/logo-cafe-08.webp" alt="Logo de la cafetería">
+        <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../pages/menu.html">Menú</a></li>
+          <li><a href="../pages/registrate.html">Registrate</a></li>
+          <li><a href="../index.html#ubicacion">Ubicación</a></li>
+          <li><a href="../index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+      <section>
+
+        <h1> Registrate Por Descuentos </h1>
+        <form>
+            <h2>Formulario de Registro</h2>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+            <label for="confirmar-contraseña">Confirmar contraseña:</label>
+            <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" required>
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            <label for="género">Género:</label>
+            <select id="género" name="género" required>
+              <option value="">Seleccionar</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+              <option value="otro">Otro</option>
+            </select>
+            <label for="país">País:</label>
+            <input type="text" id="país" name="país" required>
+            <label for="código-postal">Código postal:</label>
+            <input type="text" id="código-postal" name="código-postal" required>
+            <label for="teléfono">Número de teléfono:</label>
+            <input type="tel" id="teléfono" name="teléfono" required>
+            <div class="condiciones">
+              <input type="checkbox" id="condiciones" name="condiciones" required>
+              <label for="condiciones">Acepto los términos y condiciones de uso de la página web.</label>
+            </div>
+            <button type="submit">Registrarse</button>
+          </form>
+          
+      </section> 
+
+  </main>
+      
+
+    <footer>
+      <p>© 2023 Cafetería. Todos los derechos reservados.</p>
+      <ul>
+        <li><a href="https://es-es.facebook.com/">Facebook</a></li>
+        <li><a href="https://twist.com/es">Twitter</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>   

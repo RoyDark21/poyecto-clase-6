@@ -1,0 +1,166 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #a51b1b;
+    background-color: #eed9d9;          
+  }
+
+ 
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #380b0b;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 255, 255);
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fcf9f9;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6700;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  main h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f70000;
+  }
+  
+  main p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #08107c;
+  }
+  
+  section {
+    margin-bottom: 80px;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #a70202;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+ /* Estilos para el menu */
+
+ .item {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .item img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .item h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .item div:hover img {
+    opacity: 0.5;
+  }
+  
+  .item div:hover h3 {
+    font-weight: bold;
+    font-style: cursive;
+    opacity: 1;
+  }
+
+
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer ul li a:hover {
+    color: #ff6700;
+  }
+  
